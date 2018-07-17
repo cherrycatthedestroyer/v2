@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39BB08FD9206CDF39CA0EF00 /* Pods_insupal_version1_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F8EB1142B13ACCEB67AD2 /* Pods_insupal_version1_.framework */; };
+		5515A6FE20ECD87700A24080 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515A6FD20ECD87700A24080 /* ChartViewController.swift */; };
+		557DA00720ED6F540065DD91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 557DA00620ED6F540065DD91 /* GoogleService-Info.plist */; };
+		557DA01620ED70990065DD91 /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557DA01220ED70990065DD91 /* GoalTableViewCell.swift */; };
+		557DA01720ED70990065DD91 /* GoalEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557DA01320ED70990065DD91 /* GoalEditViewController.swift */; };
+		557DA01820ED70990065DD91 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557DA01420ED70990065DD91 /* GoalViewController.swift */; };
+		557DA01920ED70990065DD91 /* tempGoalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557DA01520ED70990065DD91 /* tempGoalClass.swift */; };
+		BB6437A720FD779200E72090 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6437A620FD779200E72090 /* SignUpViewController.swift */; };
+		BB6437A920FD779F00E72090 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6437A820FD779F00E72090 /* LogInViewController.swift */; };
+		BB6F10A120EAF35C0006C5B4 /* logViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6F10A020EAF35C0006C5B4 /* logViewController.swift */; };
 		C830BC7C20E82C54008B322C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830BC7B20E82C54008B322C /* AppDelegate.swift */; };
 		C830BC7E20E82C54008B322C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830BC7D20E82C54008B322C /* ViewController.swift */; };
 		C830BC8120E82C54008B322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C830BC7F20E82C54008B322C /* Main.storyboard */; };
 		C830BC8320E82C55008B322C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C830BC8220E82C55008B322C /* Assets.xcassets */; };
 		C830BC8620E82C55008B322C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C830BC8420E82C55008B322C /* LaunchScreen.storyboard */; };
 		C830BC9120E82C55008B322C /* insupal_version1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C830BC9020E82C55008B322C /* insupal_version1_Tests.swift */; };
+		D10AE01E283126EC84B7775C /* Pods_insupal_version1_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0422552B6055683D4AD6BC8 /* Pods_insupal_version1_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002EDE899FD494D849254D05 /* Pods-insupal[version1].debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insupal[version1].debug.xcconfig"; path = "Pods/Target Support Files/Pods-insupal[version1]/Pods-insupal[version1].debug.xcconfig"; sourceTree = "<group>"; };
+		17E75A939E575F8435FB468E /* Pods-insupal[version1].release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insupal[version1].release.xcconfig"; path = "Pods/Target Support Files/Pods-insupal[version1]/Pods-insupal[version1].release.xcconfig"; sourceTree = "<group>"; };
+		1924BEE71D5510B47D9B7C29 /* Pods-insupal[version1]Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insupal[version1]Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-insupal[version1]Tests/Pods-insupal[version1]Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5515A6FD20ECD87700A24080 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		5515A70120ECD8D500A24080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		557DA00620ED6F540065DD91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		557DA01220ED70990065DD91 /* GoalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
+		557DA01320ED70990065DD91 /* GoalEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalEditViewController.swift; sourceTree = "<group>"; };
+		557DA01420ED70990065DD91 /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		557DA01520ED70990065DD91 /* tempGoalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tempGoalClass.swift; sourceTree = "<group>"; };
+		A0422552B6055683D4AD6BC8 /* Pods_insupal_version1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insupal_version1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B7D898E2A60D7C774CBD9 /* Pods-insupal[version1]Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insupal[version1]Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-insupal[version1]Tests/Pods-insupal[version1]Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A58F8EB1142B13ACCEB67AD2 /* Pods_insupal_version1_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insupal_version1_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6437A620FD779200E72090 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BB6437A820FD779F00E72090 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		BB6F10A020EAF35C0006C5B4 /* logViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logViewController.swift; sourceTree = "<group>"; };
 		C830BC7820E82C54008B322C /* insupal[version1].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "insupal[version1].app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C830BC7B20E82C54008B322C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C830BC7D20E82C54008B322C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BB08FD9206CDF39CA0EF00 /* Pods_insupal_version1_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +78,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10AE01E283126EC84B7775C /* Pods_insupal_version1_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5515A6FF20ECD89B00A24080 /* ChartController */ = {
+			isa = PBXGroup;
+			children = (
+				5515A6FD20ECD87700A24080 /* ChartViewController.swift */,
+			);
+			path = ChartController;
+			sourceTree = "<group>";
+		};
+		5515A70020ECD8AD00A24080 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5515A70120ECD8D500A24080 /* GoogleService-Info.plist */,
+				C830BC7B20E82C54008B322C /* AppDelegate.swift */,
+				C830BC8720E82C55008B322C /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		557DA01120ED70990065DD91 /* Goal */ = {
+			isa = PBXGroup;
+			children = (
+				557DA01220ED70990065DD91 /* GoalTableViewCell.swift */,
+				557DA01320ED70990065DD91 /* GoalEditViewController.swift */,
+				557DA01420ED70990065DD91 /* GoalViewController.swift */,
+				557DA01520ED70990065DD91 /* tempGoalClass.swift */,
+			);
+			path = Goal;
+			sourceTree = "<group>";
+		};
+		BB6437A520FD777A00E72090 /* Sign In & Log In */ = {
+			isa = PBXGroup;
+			children = (
+				BB6437A620FD779200E72090 /* SignUpViewController.swift */,
+				BB6437A820FD779F00E72090 /* LogInViewController.swift */,
+			);
+			path = "Sign In & Log In";
+			sourceTree = "<group>";
+		};
 		C830BC6F20E82C54008B322C = {
 			isa = PBXGroup;
 			children = (
 				C830BC7A20E82C54008B322C /* insupal[version1] */,
 				C830BC8F20E82C55008B322C /* insupal[version1]Tests */,
 				C830BC7920E82C54008B322C /* Products */,
+				C8B70A89D01F19DBE1908F11 /* Pods */,
+				E4F815AFF4974CE8DF40632A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +146,16 @@
 		C830BC7A20E82C54008B322C /* insupal[version1] */ = {
 			isa = PBXGroup;
 			children = (
-				C830BC7B20E82C54008B322C /* AppDelegate.swift */,
+				BB6437A520FD777A00E72090 /* Sign In & Log In */,
+				557DA01120ED70990065DD91 /* Goal */,
+				557DA00620ED6F540065DD91 /* GoogleService-Info.plist */,
+				5515A70020ECD8AD00A24080 /* Others */,
+				5515A6FF20ECD89B00A24080 /* ChartController */,
 				C830BC7D20E82C54008B322C /* ViewController.swift */,
+				BB6F10A020EAF35C0006C5B4 /* logViewController.swift */,
 				C830BC7F20E82C54008B322C /* Main.storyboard */,
 				C830BC8220E82C55008B322C /* Assets.xcassets */,
 				C830BC8420E82C55008B322C /* LaunchScreen.storyboard */,
-				C830BC8720E82C55008B322C /* Info.plist */,
 			);
 			path = "insupal[version1]";
 			sourceTree = "<group>";
@@ -96,6 +169,26 @@
 			path = "insupal[version1]Tests";
 			sourceTree = "<group>";
 		};
+		C8B70A89D01F19DBE1908F11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				002EDE899FD494D849254D05 /* Pods-insupal[version1].debug.xcconfig */,
+				17E75A939E575F8435FB468E /* Pods-insupal[version1].release.xcconfig */,
+				1924BEE71D5510B47D9B7C29 /* Pods-insupal[version1]Tests.debug.xcconfig */,
+				A42B7D898E2A60D7C774CBD9 /* Pods-insupal[version1]Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4F815AFF4974CE8DF40632A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58F8EB1142B13ACCEB67AD2 /* Pods_insupal_version1_.framework */,
+				A0422552B6055683D4AD6BC8 /* Pods_insupal_version1_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C830BC9520E82C55008B322C /* Build configuration list for PBXNativeTarget "insupal[version1]" */;
 			buildPhases = (
+				3884D711B7D03D29AA6F9FE6 /* [CP] Check Pods Manifest.lock */,
 				C830BC7420E82C54008B322C /* Sources */,
 				C830BC7520E82C54008B322C /* Frameworks */,
 				C830BC7620E82C54008B322C /* Resources */,
+				69217329B04C9B4808D99F4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C830BC9820E82C55008B322C /* Build configuration list for PBXNativeTarget "insupal[version1]Tests" */;
 			buildPhases = (
+				0A477CF931604F3244D6DD3C /* [CP] Check Pods Manifest.lock */,
 				C830BC8820E82C55008B322C /* Sources */,
 				C830BC8920E82C55008B322C /* Frameworks */,
 				C830BC8A20E82C55008B322C /* Resources */,
@@ -178,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C830BC8620E82C55008B322C /* LaunchScreen.storyboard in Resources */,
+				557DA00720ED6F540065DD91 /* GoogleService-Info.plist in Resources */,
 				C830BC8320E82C55008B322C /* Assets.xcassets in Resources */,
 				C830BC8120E82C54008B322C /* Main.storyboard in Resources */,
 			);
@@ -192,12 +289,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A477CF931604F3244D6DD3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-insupal[version1]Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3884D711B7D03D29AA6F9FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-insupal[version1]-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69217329B04C9B4808D99F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-insupal[version1]/Pods-insupal[version1]-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-insupal[version1]/Pods-insupal[version1]-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C830BC7420E82C54008B322C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557DA01820ED70990065DD91 /* GoalViewController.swift in Sources */,
 				C830BC7E20E82C54008B322C /* ViewController.swift in Sources */,
+				557DA01720ED70990065DD91 /* GoalEditViewController.swift in Sources */,
+				5515A6FE20ECD87700A24080 /* ChartViewController.swift in Sources */,
+				BB6F10A120EAF35C0006C5B4 /* logViewController.swift in Sources */,
+				557DA01920ED70990065DD91 /* tempGoalClass.swift in Sources */,
+				BB6437A720FD779200E72090 /* SignUpViewController.swift in Sources */,
+				557DA01620ED70990065DD91 /* GoalTableViewCell.swift in Sources */,
+				BB6437A920FD779F00E72090 /* LogInViewController.swift in Sources */,
 				C830BC7C20E82C54008B322C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,10 +526,12 @@
 		};
 		C830BC9620E82C55008B322C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002EDE899FD494D849254D05 /* Pods-insupal[version1].debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "insupal[version1]/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,10 +545,12 @@
 		};
 		C830BC9720E82C55008B322C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E75A939E575F8435FB468E /* Pods-insupal[version1].release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "insupal[version1]/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +564,7 @@
 		};
 		C830BC9920E82C55008B322C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1924BEE71D5510B47D9B7C29 /* Pods-insupal[version1]Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +585,7 @@
 		};
 		C830BC9A20E82C55008B322C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42B7D898E2A60D7C774CBD9 /* Pods-insupal[version1]Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
